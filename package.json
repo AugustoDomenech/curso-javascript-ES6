@@ -1,0 +1,16 @@
+{
+  "name": "Curso-Javascript-ES6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AugustoDomenech/Curso-Javascript-ES6.git",
+  "author": "Augusto Domenech <augustodomenech@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bundle.js -w"
+  }
+}
